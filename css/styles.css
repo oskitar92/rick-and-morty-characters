@@ -78,4 +78,22 @@ ul {
 }
 
 
+#character-list{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: left;
+}
+                                     
+#character-list li{
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  padding: 25px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
 
+#character-list li strong{
+  font-weight: bold;
+}
